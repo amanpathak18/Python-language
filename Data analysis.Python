@@ -1,0 +1,5 @@
+import pandas as pd
+
+data = {"Name": ["Alice", "Bob", "Aman", "Manjay","Manjeet", "Akash", "Gautam",], "Age": [25, 30, 19, 20, 18, 21, 22]}
+df = pd.DataFrame(data)
+print(df)
